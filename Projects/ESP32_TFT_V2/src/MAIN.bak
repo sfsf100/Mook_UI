@@ -1,0 +1,30 @@
+#include <Arduino.h>
+#include <TFT_eSPI.h> // Hardware-specific library
+
+TFT_eSPI tft = TFT_eSPI(); // Invoke custom library
+
+void setup()
+{
+Serial.begin(115200); // For debug
+ Serial.println("Initializing TFT...");
+
+  tft.init(); // 初始化 TFT
+  Serial.println("TFT initialized.");
+
+  tft.fillScreen(TFT_RED); // 填充绿色背景
+  Serial.println("Filled screen with green.");
+
+  // 设置文本颜色和大小
+  tft.setTextColor(TFT_WHITE, TFT_GREEN); // 文本颜色为白色，背景颜色为绿色
+  tft.setTextSize(2); // 设置文字大小
+  tft.setCursor(10, 20);           // 設定文字起始位置 (x, y)
+  
+  // 顯示文字
+  tft.print("Hello, World!");
+
+}
+
+void loop()
+{
+// put your main code here, to run repeatedly:
+}

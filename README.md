@@ -1,4 +1,7 @@
 # Mook_UI
+## Update
+我會try my best finish.等待完整交成
+
 
 ##  Hardware
 micro controller: ESP-WROOM-32 ESP-32S( WIFI+bluetooth)  

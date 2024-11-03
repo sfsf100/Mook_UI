@@ -11,3 +11,9 @@ BUY: https://shopee.tw/ILI9341-2.8%E5%90%8B-320-x-240-%E9%9B%BB%E9%98%BB%E5%BC%8
 
 ## Circuit
 ![image](https://github.com/sfsf100/Mook_UI/blob/main/IMAGE/DISPLAYER.png)
+
+
+##Design pattern
+![image](https://github.com/sfsf100/Mook_UI/blob/main/IMAGE/page_life.png)
+
+
